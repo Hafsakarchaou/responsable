@@ -9,8 +9,13 @@
   <mat-sidenav-container>
   
     <mat-sidenav #sidenav="matSidenav" class="mat-elevation-z8">
-  
-      <img class="avatar mat-elevation-z8" src="assets/img_avatar2.png" />
+      
+      <div class="profile-pic-div">
+        <img [src]="url" id="photo"  class="avatar mat-elevation-z8">
+        <input type="file" id="file" (change)="onselectFile($event)" >
+        <br>
+        <label for="file" id="uploadBtn">Changer photo</label>
+      </div>
   
       <h4 class="name">Nom Prenom</h4>
       <p class="designation">fonction</p>
@@ -35,8 +40,8 @@
       </button>
 
       <button mat-button class="menu-button" routerLink="/demandes">
-        <mat-icon>library_books</mat-icon>
-        <span>Les demandes</span>
+        
+        <span><i class="fa-solid fa-folder"></i> Les demandes</span>
       </button>
   
       <button mat-button class="menu-button" routerLink="/avis">
@@ -45,8 +50,7 @@
       </button>
   
       <button mat-button class="menu-button" routerLink="/decisions">
-        <mat-icon>subject</mat-icon>
-        <span>Les decisions</span>
+        <span><i class="fa-solid fa-folder-open"></i> Les decisions</span>
       </button>
   
       <mat-divider></mat-divider>
@@ -59,6 +63,7 @@
     </mat-sidenav>
     <mat-sidenav-content>
         <div class="content" class="content mat-elevation-z4">
+          <router-outlet></router-outlet>
             </div>
  </mat-sidenav-content>
 </mat-sidenav-container>
