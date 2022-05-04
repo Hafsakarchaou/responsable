@@ -1,0 +1,82 @@
+.av{
+    font-size: 2.5rem;
+    font-family: 'Playfair Display', serif;
+    display: inline;
+    margin-top: 70px;
+    margin-left: 100px;
+    display: block;
+
+  }
+   
+
+
+.leau{
+    margin-top: 70px;
+    margin-left: 10px;
+    display: block;
+
+   }
+      
+  .tab{
+    padding-top: 5%;
+    width: 90%;
+  }
+
+  .tab table{
+    border-collapse: collapse;
+    
+  }
+
+  table {border: none;
+  
+  border-spacing: 0}
+
+
+
+  .tab table tr{
+    border: none;
+   
+  }
+  .tab table td div{
+    background: rgb(255, 255, 255);
+    margin-bottom: .7rem;
+    
+    margin-left: none;
+    margin-right: none;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding: .8rem;
+    font-size: .85rem;
+    color: #444;
+    font-weight: 500;
+    padding-left: 70px;
+    padding-right: 70px;
+    
+    
+  }
+
+
+  table.no-spacing {
+    border-spacing:0; /* Removes the cell spacing via CSS */
+    border-collapse: collapse;  /* Optional - if you don't want to have double border where cells touch */
+  }
+
+  table button{
+    background-color: #009b72;
+    height: 30px;
+    border: 1px solid;
+    padding: .3rem;
+    border-radius: 3px;
+    }
+
+  .extr{ 
+    border-left: 4px solid #009b72 ; }
+
+
+
+
+
+
+
+

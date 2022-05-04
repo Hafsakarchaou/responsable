@@ -6,6 +6,8 @@ import { AvisComponent } from './avis/avis.component';
 import { DecisionsComponent } from './decisions/decisions.component';
 import { DemandesComponent } from './demandes/demandes.component';
 import { ProfilComponent } from './profil/profil.component';
+import { DecisionComponent } from './decision/decision.component';
+import { AviComponent } from './avi/avi.component';
 
 const routes: Routes = [
   {path:"", component:ProfilComponent},
@@ -14,6 +16,8 @@ const routes: Routes = [
   {path:"demandes", component:DemandesComponent},
   {path:"avis", component:AvisComponent},
   {path:"decisions", component:DecisionsComponent},
+  {path:"decision",component:DecisionComponent},
+  {path:"avi",component:AviComponent},
 ];
 
 @NgModule({

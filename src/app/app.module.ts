@@ -18,6 +18,8 @@ import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatButtonModule} from '@angular/material/button';
 import {MatIconModule} from '@angular/material/icon';
 import {MatDividerModule} from '@angular/material/divider';
+import { DecisionComponent } from './decision/decision.component';
+import { AviComponent } from './avi/avi.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +32,9 @@ import {MatDividerModule} from '@angular/material/divider';
     AvisComponent,
     DecisionsComponent,
     QuitterComponent,
-    MaincComponent
+    MaincComponent,
+    DecisionComponent,
+    AviComponent
   ],
   imports: [
     BrowserModule,
