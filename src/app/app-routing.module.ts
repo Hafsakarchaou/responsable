@@ -5,6 +5,7 @@ import { AjoutComponent } from './ajout/ajout.component';
 import { AvisComponent } from './avis/avis.component';
 import { DecisionsComponent } from './decisions/decisions.component';
 import { DemandesComponent } from './demandes/demandes.component';
+import { ModificationAgentComponent } from './modification-agent/modification-agent.component';
 import { ProfilComponent } from './profil/profil.component';
 
 const routes: Routes = [
@@ -14,6 +15,7 @@ const routes: Routes = [
   {path:"demandes", component:DemandesComponent},
   {path:"avis", component:AvisComponent},
   {path:"decisions", component:DecisionsComponent},
+  {path:"modification-agent", component:ModificationAgentComponent}
 ];
 
 @NgModule({
