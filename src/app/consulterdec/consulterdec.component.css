@@ -63,17 +63,3 @@ label{
 input.wd{
     width :90%
 }
-
-.Accepter{
-    background-color: #009B72;
-    margin-left: 50%;
-    margin-top: 50px;
- }
- .Accepter:hover{
-  background-color: #10b489 ;
-  cursor: pointer;
-  box-shadow: 0 0 5px #10b489,
-              0 0 20px #10b489,        
-              0 0 60px #10b489,
-              0 0 150px #10b489                ;
-}

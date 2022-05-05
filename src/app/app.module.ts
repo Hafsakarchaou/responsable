@@ -20,6 +20,7 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatDividerModule} from '@angular/material/divider';
 import { DecisionComponent } from './decision/decision.component';
 import { AviComponent } from './avi/avi.component';
+import { ConsulterdecComponent } from './consulterdec/consulterdec.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { AviComponent } from './avi/avi.component';
     QuitterComponent,
     MaincComponent,
     DecisionComponent,
-    AviComponent
+    AviComponent,
+    ConsulterdecComponent
   ],
   imports: [
     BrowserModule,

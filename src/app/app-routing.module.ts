@@ -8,6 +8,7 @@ import { DemandesComponent } from './demandes/demandes.component';
 import { ProfilComponent } from './profil/profil.component';
 import { DecisionComponent } from './decision/decision.component';
 import { AviComponent } from './avi/avi.component';
+import { ConsulterdecComponent } from './consulterdec/consulterdec.component';
 
 const routes: Routes = [
   {path:"", component:ProfilComponent},
@@ -18,6 +19,7 @@ const routes: Routes = [
   {path:"decisions", component:DecisionsComponent},
   {path:"decision",component:DecisionComponent},
   {path:"avi",component:AviComponent},
+  {path:"consulterdec",component:ConsulterdecComponent},
 ];
 
 @NgModule({
