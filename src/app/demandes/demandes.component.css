@@ -119,3 +119,6 @@ tbody tr:hover{
     color: #009B72 ;
     font-weight: 600;
 }
+a{
+    text-decoration: none;
+}

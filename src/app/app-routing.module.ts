@@ -18,13 +18,11 @@ const routes: Routes = [
   {path:"demandes", component:DemandesComponent},
   {path:"avis", component:AvisComponent},
   {path:"decisions", component:DecisionsComponent},
-<<<<<<< HEAD
   {path:"decision",component:DecisionComponent},
   {path:"avi",component:AviComponent},
   {path:"consulterdec",component:ConsulterdecComponent},
-=======
   {path:"modification-agent", component:ModificationAgentComponent}
->>>>>>> 5f07c3d619dc852617504c2e1e628d90606347d2
+
 ];
 
 @NgModule({

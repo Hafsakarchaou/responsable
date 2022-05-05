@@ -18,13 +18,11 @@ import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatButtonModule} from '@angular/material/button';
 import {MatIconModule} from '@angular/material/icon';
 import {MatDividerModule} from '@angular/material/divider';
-<<<<<<< HEAD
 import { DecisionComponent } from './decision/decision.component';
 import { AviComponent } from './avi/avi.component';
 import { ConsulterdecComponent } from './consulterdec/consulterdec.component';
-=======
 import { ModificationAgentComponent } from './modification-agent/modification-agent.component';
->>>>>>> 5f07c3d619dc852617504c2e1e628d90606347d2
+
 
 @NgModule({
   declarations: [
@@ -38,13 +36,11 @@ import { ModificationAgentComponent } from './modification-agent/modification-ag
     DecisionsComponent,
     QuitterComponent,
     MaincComponent,
-<<<<<<< HEAD
     DecisionComponent,
     AviComponent,
-    ConsulterdecComponent
-=======
+    ConsulterdecComponent,
     ModificationAgentComponent
->>>>>>> 5f07c3d619dc852617504c2e1e628d90606347d2
+
   ],
   imports: [
     BrowserModule,
