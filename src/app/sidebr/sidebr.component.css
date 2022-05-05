@@ -49,7 +49,11 @@ body{
     height: 900px;
     margin: 16px;
     margin-left: 20px;
+<<<<<<< HEAD
+    display: flex;
+=======
 
+>>>>>>> 5f07c3d619dc852617504c2e1e628d90606347d2
     justify-content: center;
     font-size: 18px;
     color: black;
