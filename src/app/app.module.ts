@@ -21,7 +21,10 @@ import {MatDividerModule} from '@angular/material/divider';
 import { DecisionComponent } from './decision/decision.component';
 import { AviComponent } from './avi/avi.component';
 import { ConsulterdecComponent } from './consulterdec/consulterdec.component';
+
+
 import { ModificationAgentComponent } from './modification-agent/modification-agent.component';
+import { ConsulterdemandeComponent } from './consulterdemande/consulterdemande.component';
 
 
 @NgModule({
@@ -39,7 +42,13 @@ import { ModificationAgentComponent } from './modification-agent/modification-ag
     DecisionComponent,
     AviComponent,
     ConsulterdecComponent,
-    ModificationAgentComponent
+    ModificationAgentComponent,
+    DecisionComponent,
+    AviComponent,
+    ConsulterdecComponent,
+    ModificationAgentComponent,
+    ConsulterdemandeComponent,
+
 
   ],
   imports: [
